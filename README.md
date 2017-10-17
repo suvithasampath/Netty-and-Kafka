@@ -1,2 +1,4 @@
 # Netty-and-Kafka
-Project for posting  message kafka using netty  server kindly hit the below URL http://localhost:8082/?name=arun&e-mail=arun@gmail.com&phoneNumber=9876543210
+Project for posting  message to kafka server using netty  
+SampleURL: http://localhost:8082/?name=arun&e-mail=arun@gmail.com&phoneNumber=9876543210
+Topic to be created in kafka: person details 
