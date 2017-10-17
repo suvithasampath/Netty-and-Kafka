@@ -1,0 +1,15 @@
+syntax="proto2";
+
+package com.person.details.proto;
+
+option java_package= "com.person.details.proto.java";
+option java_outer_classname = "PersonDetailsBean";
+
+
+
+message PersonDetails {
+
+required string name = 1;
+required string email = 2;
+required double  phoneNumber = 3;
+}
