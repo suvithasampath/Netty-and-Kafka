@@ -19,9 +19,9 @@ public class PersonDetailsConsumer {
 	      props.put("auto.commit.interval.ms", "1000");
 	      props.put("session.timeout.ms", "30000");
 	      props.put("key.deserializer",          
-	         "com.person.details.proto.java.PersonDetailsBeanDeSerializer");
+	         "com.person.details.proto.java.PersonDetailsBeanDeserializer");
 	      props.put("value.deserializer", 
-	         "com.person.details.proto.java.PersonDetailsBeanDeSerializer");
+	         "com.person.details.proto.java.PersonDetailsBeanDeserializer");
 	      KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(props);
 	      
 	      consumer.subscribe(Arrays.asList(topic));
